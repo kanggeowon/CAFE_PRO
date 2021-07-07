@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 세상에서 가장 작은 카페 </title>
+    <meta charset="UTF-8">
+    <style>
+        @media screen and (min-width:600px) {
+            h1 {
+                text-align: center;
+            }
+
+            .container {
+                background-color: white;
+                height: 40vh;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+            }
+
+            .item {
+                background-color: beige;
+                height: 44vh;
+                width: 50vw;
+                margin: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+            }
+
+            a:hover {
+                color: pink;
+            }
+        }
+
+        @media screen and (max-width:600px){
+            h1{
+                text-align: center;
+            }
+
+            .container{
+                display:block;
+            }
+
+            .item{
+                height: 16vh;
+                margin:2px;
+                background-color: beige;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            a{
+                text-decoration: none;
+                color:black;
+                font-size:22px;
+                margin-left:12px;
+            }
+
+            a:hover{
+                color:pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1> 홈 카페 </h1>
+    <div class="container">
+        <div class="item item1"><a href="" title="recipe">레시피</a></div>
+        <div class="item item2"><a href="" title="">시험&자격증</a></div>
+    </div>
+    <div class="container">
+        <div class="item item3"><a href="" title="">요일별</a></div>
+        <div class="item item4"><a href="" title="">커뮤니티</a></div>
+    </div>
+</body>
+
+</html>
